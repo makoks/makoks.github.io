@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display:italic|Raleway:400,600,700|Roboto+Condensed:700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <meta name="description" content="#" />
+  <meta name="keywords" content="#" />
+  <meta name="author" content="Oxana Kolesnikova" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <header>
+    <div class="center">
+      <div id="logo">Surfers Co.</div>
+      <nav>
+        <a href="#">Boards</a>
+        <a href="#">Accessories</a>
+        <a href="#">Blog</a>
+        <a href="#">Technology</a>
+        <a href="#">Team</a>
+        <a href="#">Dealers</a>
+      </nav>
+      <div id="social">
+        <a href="#"><img src="images/Facebook.png"></a>
+        <a href="#"><img src="images/Instagram.png"></a>
+        <a href="#"><img src="images/Mail.png"></a>
+      </div>
+    </div>
+    <div id="slogan">
+      <p>Ride every wave as if it's your last</p>
+      <p>We love the motion of the ocean</p>
+    </div> 
+  </header>
+  <div id="surfboards">
+    <h1 id="boards">Boards</h1>
+    <a href="#" id="previous"><img src="images/Previous.png"></a>
+    <span id="counter">5/25</span>
+    <a href="#" id="next"><img src="images/Next.png"></a><br />
+    <img src="images/Board.png" alt="Board" id="board" />
+    <div id="thumbs">
+      <img src="images/Photo (3).png" alt="Photo 1" />
+      <img src="images/Photo.png" alt="Photo 2" />
+      <img src="images/Photo (1).png" alt="Photo 3" />
+      <img src="images/Photo (2).png" alt="Photo 4" />
+    </div>
+    <div id="side">
+      <h2>JR Surfboards The Donny Stoker Yellow/Green Rail Fade</h2>
+      <div id="raiting">
+        <img src="images/Star 1.png" />
+        <img src="images/Star 1.png" />
+        <img src="images/Star 1.png" />
+        <img src="images/Star 1.png" />
+        <img src="images/Star 5.png" />
+        <span>(52)</span>
+      </div>
+      <div id="tabs">
+        <a href="#" class="active">Description</a>
+        <a href="#">Features</a>
+        <a href="#">Dimentions</a>
+      </div>
+      <p id="description">Easy to ride, care free surfing craft that's fun for everyone, paddles well, super fast down the line and great for any level of surfing depending on who rides it. The Donny Stoker, a rework on design from stokesys first ever pro model. A super easy to surf and fun board. The Donny Stoker is a board for total freesurfing expression.</p>
+      <div id="price">$499.99</div>
+      <a href="#" id="buynowbutton">Buy now</a>
+      <a href="#" id="allboards">View all boards</a>
+    </div>
+  </div>
+  <div id="about">
+    <img id="aboutus" src="images/About us.png" alt="About us" />
+    <h2 id="title">We are Surfers co.<br />X</h2>
+    <p id="text">Lorem ipsum dolor sit amet, aeneam consectetur adipiscing elit. Fusce iaculis feugiat arcunum fermentum hendrerit. Suspendisse auctor labor nisi, et interdum diam facilisis, aliquam pulvinar semi egetis belle sollicitudin ut. Nullam tincidun finibustus scelerisque.</p>
+    <a href="#" id="readmore">Read more</a>
+    <div id="video" onmouseover="showCircle()" onmouseout="hideCircle()">
+      <video width="500px" height="300px" poster="images/Photo (6).png" style="background-color: transparent;">
+        <source src="#" type="video/mp4" />
+      </video>
+      <button type="button">
+        <img src="images/Circle.png" id="circle" />
+        <img src="images/Play icon.png" id="playicon" />
+      </button>
+    </div>
+  </div>
+  <section id="team">
+    <img id="ourteam" src="images/Our Team.png" alt="Our team" />
+    <a id="trb" href="#"><i class="material-icons">arrow_back</i></a>
+    <div class="cards">
+      <div class="tcard-odd" onmouseover="teamActive(this)" onmouseout="teamUsual(this)">
+        <img src="images/Photo (8).png" class="tphoto" alt="Taj Burrow" style="border: 2px solid white; border-radius: 50%;" />
+        <p class="tname">Taj Burrow</p>
+        <p class="tinst">@tajamos</p>
+        <img src="images/Waves (1).png" class="separator" />
+        <p class="tloc"><i class="material-icons">place</i> Yallingup, Australia</p>
+      </div>
+      <div class="tcard-even" onmouseover="teamActive(this)" onmouseout="teamUsual(this)">
+        <img src="images/Photo (7).png" class="tphoto" alt="Malia Manuel" />
+        <p class="tname">Malia Manuel</p>
+        <p class="tinst">@maliamanuel</p>
+        <img src="images/Waves (1).png" class="separator" />
+        <p class="tloc"><i class="material-icons">place</i> Wailua, Hi</p>
+      </div>
+      <div id="sep">_</div>
+      <div class="tcard-odd" onmouseover="teamActive(this)" onmouseout="teamUsual(this)">
+        <img src="images/Photo (9).png" class="tphoto" alt="Ian Walsh" style="border: 2px solid white; border-radius: 50%;" />
+        <p class="tname">Ian Walsh</p>
+        <p class="tinst">@ian.walsh</p>
+        <img src="images/Waves (1).png" class="separator" />
+        <p class="tloc"><i class="material-icons">place</i> Maui, Hi</p>
+      </div>
+      <div class="tcard-even" onmouseover="teamActive(this)" onmouseout="teamUsual(this)">
+        <img src="images/Photo (10).png" class="tphoto" alt="Macy Callaghan" style="border: 2px solid white; border-radius: 50%;" />
+        <p class="tname">Macy Callaghan</p>
+        <p class="tinst">@macyjanecallaghan</p>
+        <img src="images/Waves (1).png" class="separator" />
+        <p class="tloc"><i class="material-icons">place</i> San Clemente, CA</p>
+      </div>
+    </div>
+    <a id="tlb" href="#"><i class="material-icons">arrow_forward</i></a>
+  </section>
+  <section id="updates">
+    <h2 id="upd">Latest updates<br />X</h2>
+    <div id="blog">
+      <div class="upd-card" onmouseover="blogHover(this)" onmouseout="blogUsual(this)">
+        <div class="dark"></div>
+        <img src="images/Photo%20(11).png" alt="Blog photo 1" class="blog-img"/>
+        <p class="blog-post">Ellie Turner and Jobe Harris have taken out the 2016 British National Surf Championships</p>
+      </div>
+      <div class="upd-card" onmouseover="blogHover(this)" onmouseout="blogUsual(this)">
+        <div class="dark"></div>
+        <img src="images/Photo%20(12).png" alt="Blog photo 2" class="blog-img"/>
+        <p class="blog-post">A large group of surfers invaded the coast of La Jolla Shores, in California, with a single goal in mind</p>
+      </div>
+      <div class="upd-card" onmouseover="blogHover(this)" onmouseout="blogUsual(this)">
+        <div class="dark"></div>
+        <img src="images/Photo%20(13).png" alt="Blog photo 3" class="blog-img"/>
+        <p class="blog-post">Surfboards are constantly evolving, and there are multiple board designs for a broad range of environments</p>
+      </div>
+    </div>
+    <a href="#">View all posts</a>
+  </section>
+  <div id="instface">
+    <section id="instagram">
+      <img id="inst-sect-img" src="images/Instagram%20(1).png" />
+      <div id="inst-photos">
+        <img src="images/Photo%20(17).png" alt="Instagram photo 1" />
+        <img src="images/Photo%20(14).png" alt="Instagram photo 2" />
+        <img src="images/Photo%20(15).png" alt="Instagram photo 3" />
+        <img src="images/Photo%20(16).png" alt="Instagram photo 4" />
+      </div>
+      <p>
+        <a href="#">
+          <img src="images/Logo%20Instagram.png" />
+          <span>Follow us</span>
+        </a>
+        <span>@surfersco</span>
+      </p>
+    </section>
+    <section id="facebook">
+      <img id="fl" src="images/Logo%20Facebook.png" />
+      <img id="fa" src="images/FB%20Like%20Box.png" />
+    </section>
+  </div>
+  <footer>
+    <nav id="ll1">
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        About
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Boards
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Accesories
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Blog
+      </a>
+    </nav>
+    <nav id="ll2">
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Technology
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Team
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Dealers
+      </a>
+      <a href="#">
+        <img src="images/Waves%20col%201.png" />
+        Contact us
+      </a>
+    </nav>
+    <form>
+      <p>Subscribe to our newsletter</p>
+      <div>
+        <i class="material-icons">email</i>
+        <input type="email" name="email" placeholder="Your e-mail"/>
+        <a href="#">
+          <i class="material-icons">arrow_forward</i>
+        </a>
+      </div>
+    </form>
+    <p id="cop">
+      © 2017 Surfers Co.
+      <img src="images/Bullet.png" />
+      Design by @lucaalco
+    </p>
+  </footer>
+  <script src="myscript.js"></script>
+</body>
+</html>
