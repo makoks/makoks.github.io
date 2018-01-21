@@ -718,6 +718,10 @@ form div {
   margin-right: 10px;
 }
 
+#inst-sect-img {
+  max-width: 100%;
+}
+
 @media only screen and (min-width: 650px) {
   #logo {flex: 1;}
   nav {flex: 2;}
@@ -754,3 +758,14 @@ form div {
 
 @media only screen and (min-width: 1700px) {
   #video {position: absolute; left: 53%; top: 375px;}
+}
+
+@media only screen and (max-width: 500px) {
+  .cards {width: 260px;}
+  .cards div {margin-bottom: 20px;}
+  .upd-card {margin: auto; float: none; margin-bottom: 20px;}
+  .upd-card:last-child {margin-right: auto;}
+  #inst-photos img {width: 100%;}
+  #facebook {max-width: 100%; overflow: hidden; padding-left: 0px; padding-right: 0px;}
+  #ll2 {margin-left: 0px;} 
+}
